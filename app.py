@@ -12,19 +12,47 @@ def ships():
     return "this works!"
 
 class shipwrecks (db.Model):
-    __tablename__ = 'shipwreck3'
+    __tablename__ = 'shipwrecks'
     __table_args__={'extend_existing': True}
+    id= db.Column(db.Integer, primary_key=True) 
+    name= db.Column(db.Unicode)
+    type= db.Column( db.Unicode)
+    lat= db.Column(db.Float)
+    lon= db.Column(db.Float)
+db.create_all()
 
-    recrd= db.Column(db.Integer, primary_key=True) 
-    vessel_terms= db.Column(db.Unicode)
-    feature_type= db.Column( db.Unicode)
-    latdec= db.Column(db.Integer)
-    londec= db.Column(db.Integer)
-    gp_quality= db.Column(db.Unicode)
-    water_depth= db.Column(db.Integer)
-    sounding_type= db.Column(db.Unicode)
-    yearsunk= db.Column(db.Unicode)
-    history= db.Column(db.Unicode)
+@app.route('/api/v1.0/pacific')
+def pacific():
+    return "pacific works!"
+class pacific (db.Model):
+    __tablename__ = 'pacific'
+    __table_args= {'extend_existing': True}
+    id= db.Column(db.Unicode, primary_key= True)
+    IDNumber= db.Column(db.Unicode)
+    stormName= db.Column(db.Unicode)
+    stormDate=db.Column(db.Unicode)
+    stormTime= db.Column(db.Unicode)
+    stormEvent= db.Column(db.Unicode)
+    lat= db.Column(db.Float)
+    lon=db.Column(db.Float) 
+    maximumWind=db.Column(db.Float)
+db.create_all()
+
+@app.route('/api/v1.0/atlantic')
+def atlantic():
+    return "atlantic works!"
+class atlantic (db.Model):
+    __tablename__ = 'atlantic'
+    __table_args= {'extend_existing': True}
+    id= db.Column(db.Unicode, primary_key= True)
+    IDNumber= db.Column(db.Unicode)
+    stormName= db.Column(db.Unicode)
+    stormDate=db.Column(db.Unicode)
+    stormTime=db.Column(db.Unicode)
+    stormEvent=db.Column(db.Unicode)
+    lat= db.Column(db.Float)
+    lon=db.Column(db.Float)
+    maximumWind=db.Column(db.Float)
 db.create_all()
 
 
