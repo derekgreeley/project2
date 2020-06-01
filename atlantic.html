@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ATLANTIC!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row content">
+      <!-- Navbar -->
+      <div class="w3-top">
+        <div class="w3-bar w3-gray w3-card w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-gray"
+            href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+              class="fa fa-bars"></i></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+          <a href="atlantic.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Atlantic
+            Weather</a>
+          <a href="pacific.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pacific
+            Weather</a>
+        </div>
+      </div>
+
+      <!-- Header -->
+      <header class="w3-container w3-light-gray w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">ATLANTIC!</h1>
+        <p class="w3-xlarge"></p>
+      </header>
+
+      <div class="col-md-9 col-md-center">
+        <h1>Data Table</h1>
+        <p>Short Summay</p>
+        <br>
+        <br>
+      </div>
+
+    </div>
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <!-- D3 JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
+    <!-- API key -->
+    <script type="text/javascript" src="config.js"></script>
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </div>
+
+  <footer class="container-fluid">
+    <p>(c) KU Data Analytics 2020</p>
+  </footer>
+</body>
+
+</html>
