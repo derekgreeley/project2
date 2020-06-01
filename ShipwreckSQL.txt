@@ -1,5 +1,5 @@
 CREATE TABLE shipwrecks(
-	RECRD VARCHAR(30),
+	RECRD VARCHAR(30), 
 	VESSLTERMS VARCHAR (30),
 	FEATURE_TYPE VARCHAR (60),
 	LATDEC FLOAT,
@@ -12,3 +12,59 @@ CREATE TABLE shipwrecks(
 );
 
 SELECT * FROM shipwrecks;
+
+
+CREATE TABLE atlantic(
+	IDNUMBER VARCHAR,
+	stormName VARCHAR,
+	stormDate VARCHAR,
+	stormTime VARCHAR,
+	stormEvent VARCHAR,
+	Status VARCHAR,
+	LatDec Float,
+	LonDec Float,
+	maximumWind Float,
+	minPressure Float,
+	lowWindNE Float,
+	lowwindSE Float,
+	lowWindSW Float,
+	lowWindNW Float,
+	moderateWindNE Float,
+	moderatewindSE Float,
+	moderateWindSW Float,
+	moderateWindNW Float,
+	highWindNE Float,
+	highWindSE Float,
+	highWindSW Float,
+	highWindNW Float
+);
+
+SELECT*FROM shipwrecks;
+
+CREATE TABLE pacific(
+	IDNUMBER VARCHAR,
+	stormName VARCHAR,
+	stormDate VARCHAR,
+	stormTime VARCHAR,
+	stormEvent VARCHAR,
+	Status VARCHAR,
+	LatDec Float,
+	LonDec Float,
+	maximumWind Float,
+	minPressure Float,
+	lowWindNE Float,
+	lowwindSE Float,
+	lowWindSW Float,
+	lowWindNW Float,
+	moderateWindNE Float,
+	moderatewindSE Float,
+	moderateWindSW Float,
+	moderateWindNW Float,
+	highWindNE Float,
+	highWindSE Float,
+	highWindSW Float,
+	highWindNW Float
+);
+
+SELECT*FROM pacific;
+
