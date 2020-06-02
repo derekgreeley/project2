@@ -1,6 +1,6 @@
 // geoJson path
 var path = "shipwreck.json";
-const API_KEY = 'pk.eyJ1IjoidHJhdm1hbjEwMzEiLCJhIjoiY2s5enI1MG5mMGQzYzNzcGg4N3l2Mmk5ayJ9.CTweGvDahbiIBUGqLzbrEg'
+const API_KEY = 'pk.eyJ1Ijoibm9uZWxhY2kxMCIsImEiOiJjazl6czV6cDEwZHp4M213MWpkejUxaThyIn0.24tSvW-Ss0rddeZ5zCUM-g'
 
 // Get the NOAA shipwreck and obstruction data
 d3.json(path, function(data) {
