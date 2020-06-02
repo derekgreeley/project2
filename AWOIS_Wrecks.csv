@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ﻿recrd,vessel_terms,feature_type,latdec,londec,gp_quality,water_depth,sounding_type,yearsunk,history
 14620,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",42.143528,-80.114556,High,18,Feet and tenths,,"  F00542: S-W904-NRT4-07; Office review indicates this feature is a sunken wreck. Height above the sea floor is 1.42m. Recommend to chart 18-ft (5.694m) Wreck located in 42-08-36.689N, 080-06-52.372W. The depth acquired sources VBES crossline sounding data. The wreck was not developed and is considered as incomplete bathymetric coverage for least depth determination. The feature is attributed as depth known, as opposed to least depth known. (Entered 6/2/09 KAK)"
 14292,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",41.498284,-81.759593,High,26,Feet and tenths,,  H11689/2007-- S-w920-NRT4-07;  Dangerous submerged wreck located at 41/29/53.824 - 081/45/34.535 with a least depth of 26 foot.  (entered CEH 8/2008)
 14296,ALGERIA,"Wreck - Submerged, dangerous to surface navigation",41.520448,-81.716076,High,32,Feet and tenths,,"  H11689/2007-- S-W920-NRT4-07;  A large submerged wreck debris was seen on SSS. Also investigated with VBES and found least depth of 32 feet.  Location of submerged wreck is 41/31/13.612 - 081/42/57.875.  From Michiganshipwrecks.com and Alcheminc.com, the wreck is a 285' to 288' schooner and was carring a cargo of iron ore when it sank.  The sites also gave location of the wreck. Hydrographer from AHB suggested that Ohio State Historic Preservation Office be contacted and defer the final charting disposition to MCD.  (Entered CEH 8/2008)"
 14298,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",41.512713,-81.709879,High,22,Feet and tenths,,"  H11689/2007-- S-W920-NRT4-07;  A submerged wreck, which appears to a barge laying in a SW-NE direction, was seen in the SSS data.  It was investigated with VBES and found a least depth of 22 feet.  Location of wreck is 41/30/45.766 - 081/42/42/35.563.  (Entered CEH 8/2008)"
+=======
+﻿recrd,vessel_terms,feature_type,latdec,londec,gp_quality,water_depth,sounding_type,yearsunk,history
+14620,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",42.143528,-80.114556,High,18,Feet and tenths,,"  F00542: S-W904-NRT4-07; Office review indicates this feature is a sunken wreck. Height above the sea floor is 1.42m. Recommend to chart 18-ft (5.694m) Wreck located in 42-08-36.689N, 080-06-52.372W. The depth acquired sources VBES crossline sounding data. The wreck was not developed and is considered as incomplete bathymetric coverage for least depth determination. The feature is attributed as depth known, as opposed to least depth known. (Entered 6/2/09 KAK)"
+14292,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",41.498284,-81.759593,High,26,Feet and tenths,,  H11689/2007-- S-w920-NRT4-07;  Dangerous submerged wreck located at 41/29/53.824 - 081/45/34.535 with a least depth of 26 foot.  (entered CEH 8/2008)
+14296,ALGERIA,"Wreck - Submerged, dangerous to surface navigation",41.520448,-81.716076,High,32,Feet and tenths,,"  H11689/2007-- S-W920-NRT4-07;  A large submerged wreck debris was seen on SSS. Also investigated with VBES and found least depth of 32 feet.  Location of submerged wreck is 41/31/13.612 - 081/42/57.875.  From Michiganshipwrecks.com and Alcheminc.com, the wreck is a 285' to 288' schooner and was carring a cargo of iron ore when it sank.  The sites also gave location of the wreck. Hydrographer from AHB suggested that Ohio State Historic Preservation Office be contacted and defer the final charting disposition to MCD.  (Entered CEH 8/2008)"
+14298,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",41.512713,-81.709879,High,22,Feet and tenths,,"  H11689/2007-- S-W920-NRT4-07;  A submerged wreck, which appears to a barge laying in a SW-NE direction, was seen in the SSS data.  It was investigated with VBES and found a least depth of 22 feet.  Location of wreck is 41/30/45.766 - 081/42/42/35.563.  (Entered CEH 8/2008)"
+>>>>>>> 93c00da9effd2b9e69d952e6099399d1aecbdcea
 14207,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",42.993389,-82.426583,High,34,Feet and tenths,,"  CL 1883/1999--  The Canadian Hydrographic Services, while conducting a Multibeam Survey, found an uncharted wreck, approximately 20 meters from the breakwall.  The position of the submerged wreck is 42°59'36.478""N - 082°25'34.527""W.  The wreck is lying in 53 feet of water with the least depth of 28.5 feet over it.  The overall size of the wreck is approx. 50 meters by 19 meters.  (Entered CEH 5/2008)
   H11915: OPR-W408-NRT4-08; Large Subm Wk was seen in SSS imagery. 42-59-36.2N, 082-25-35.7W. Wreck is oriented approximately E-W across the river. LD 4ft. (Entered 6/4/09 KAK)"
 10689,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",42.19175,-83.141611,Low,,,," HISTORY
@@ -25566,14 +25574,24 @@ H12043--OPR-E349-KR-09; COMPLETE MULTIBEAM COVERAGE WAS RUN ON THE WRECK AND A M
 SURVEY REQUIREMENTS
 FULL; 50-METER MINIMUM RADIUS DEVELOPMENT, DESCRIPTION OF WRECKS REQUIRED,
  BOTTOM DRAG MAY BE DIFFICULT DUE TO CLUTTER BUT SHOULD BE USED IF POSSIBLE.
+<<<<<<< HEAD
  AND WKS. NOT VISIBLE AT CHART DATUM."
 801,UNKNOWN,Wreck - Visible,36.894592,-76.340219,Low,0,,,#NAME?
+=======
+ AND WKS. NOT VISIBLE AT CHART DATUM."
+801,UNKNOWN,Wreck - Visible,36.894592,-76.340219,Low,0,,,#NAME?
+>>>>>>> 93c00da9effd2b9e69d952e6099399d1aecbdcea
 805,DR CARTER,Not Charted,36.901314,-76.340331,Med,0,,,"NM12/18 BARGE, LOADED W/PILING SANK IN 12 FT, 1/2 MI 343 DEG FROM CRANEY I
  LTHS.
 H7602/45-48WD INVESTIGATION BY SOUNDING IN AREA W/NO SUCCESS; LOCAL COE HAS
  NO KNOWLEDGE OF WK, HAS DREDGED AREA; A GROUNDED DRAG WIRE WAS TOWED OVER
+<<<<<<< HEAD
  SITE W/NO HANG, WK DELETION RECOMMENDED."
 809,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",36.904869,-76.321886,Low,0,,,#NAME?
+=======
+ SITE W/NO HANG, WK DELETION RECOMMENDED."
+809,UNKNOWN,"Wreck - Submerged, dangerous to surface navigation",36.904869,-76.321886,Low,0,,,#NAME?
+>>>>>>> 93c00da9effd2b9e69d952e6099399d1aecbdcea
 810,UNKNOWN,,36.907439,-76.387831,Med,5.5,Feet and tenths,,"HISTORY
 H7602/45-48WD ASSIGNED AS PSR 23, PROJ. CS-313, 9/12/44; UNIDENTIFIED HANG
  AT ABOVE GP AT 5.5 FT, CLEARED TO 5.5 FT(ACTUAL TIDES), NO LEAST DEPTH.
