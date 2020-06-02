@@ -398,11 +398,19 @@ class App extends React.Component {
     super();
     this.state = {
       images: [
-      
+      'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/import/2014/files/_images/201405/scd0514_25wrecks-1-_mv-lulu.jpg',
+      'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/import/2014/files/_images/201405/scd0514_25wrecks-2_hmcs-yukon.jpg',
       'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/images/2016/05/underwater-shipwreck-red-sea-salem-express-diver.jpg',
       'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/images/2016/05/saskatchewan-shipwreck-british-columbia-diver-underwater-scuba.jpg',
       'https://www.thevintagenews.com/wp-content/uploads/2016/02/World_Discoverer_wreck-Wikipedia.jpg',
-    'https://www.deeperblue.com/wp-content/uploads/2019/11/AdobeStock_281589380-768x513.jpeg']
+      'https://www.deeperblue.com/wp-content/uploads/2019/11/AdobeStock_281589380-768x513.jpeg',
+      'https://www.deeperblue.com/wp-content/uploads/2019/11/AdobeStock_248204351-1068x801.jpeg',
+      'https://www.deeperblue.com/wp-content/uploads/2019/11/AdobeStock_224578619-1068x712.jpeg',
+      'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/images/2016/05/fujikawa-maru-mask-underwater-truk-chuuk-lagoon-scuba.jpg',
+      'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/images/2016/05/scuba-diving-hilma-hooker-shipwreck-bonaire-underwater.jpg',
+      'https://www.scubadiving.com/sites/scubadiving.com/files/styles/655_1x_/public/images/2016/05/iro-maru-scuba-diver-palau-underwater-photo-shipwreck.jpg',
+      'https://www.diversiondivetravel.com.au/images/zoom/gpo000599_3diro/bild_.jpg'
+    ]
       };
 
 
